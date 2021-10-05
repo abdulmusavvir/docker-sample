@@ -1,4 +1,4 @@
 FROM scratch
 EXPOSE 80
-COPY http-server /
+COPY . /
 CMD ["/http-server"]
